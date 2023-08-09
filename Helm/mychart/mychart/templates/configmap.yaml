@@ -8,4 +8,3 @@ data:
   zone: {{ quote .Values.infra.zone}}
   region: {{ quote .Values.infra.region }}
   projectCode: {{ upper .Values.projectCode }}
-
